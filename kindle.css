@@ -1,0 +1,176 @@
+* {
+	margin:0;
+	padding:0;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	height: 30px;
+}
+
+div {
+	height: 30px;
+}
+
+/* Top-Nav */
+.top-nav {
+	font-family: arial, sans-serif;	
+}
+
+.top-nav nav {
+	height: 60px;
+	width: 100%;
+	margin: 20px;
+}
+
+.top-nav img {
+	float: left;
+	padding: 3px 4px 0 1px;
+	margin: 5px;
+}
+
+.top-nav ul {
+	font-size: 12px;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 15px;	
+}
+
+.top-nav li {
+	display: inline;
+	padding: 1px;
+	margin: 1px;
+}
+
+/* Search Bar */
+
+.search {
+	clear: both;
+}
+
+.search div {
+	height: 30px;
+}
+
+.search img,
+.search ul {
+	float: left;
+	position: relative;
+	top: -8px;
+	left: 19px;
+}
+
+#search-bar {
+	position: relative;
+	top: -15px;
+	left: 45px;
+}
+
+.search nav li {
+	display: inline;
+}
+
+/* Kindle-Nav */
+.kindle-nav {
+	font-family: arial, sans-serif;
+	background-color: #f6f2f2;
+}
+
+.kindle-nav ul {
+	float: left;
+	position: relative;
+	top: -10px;
+	left: 25px;
+	
+}
+
+.kindle-nav li {
+	display: inline;
+	color: #333;
+	text-indent: 1px;
+	font-size: 11px;
+	line-height: 13px;
+	padding-right: 14px;
+}
+
+.kindle-nav span {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* Main Area */
+div.left,
+div.right {
+	height: 450px;
+	width: 40%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.left {
+	position: relative;
+	top: 20px;
+	left: 60px;
+}
+
+.left ul {
+	float: left;
+	margin: 20px;
+}
+
+.left li {
+	display: inline;
+	margin: 30px 10px 30px 30px;	
+}
+
+.left li img {
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+.right {
+	position: relative;
+	top: 25px;
+	right: 75px;
+	float: right;
+}
+
+img.right {
+	position: relative;
+	top: 40px;
+	right: 100px;
+}
+
+.right form {
+	margin: 20px 10px;
+}
+
+.right input {
+	height: 100px;
+	width: 100px;
+	float: left;
+	background-color: #caf417;
+	border-radius: 10px;
+	font-size: 14px;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-weight: bold;
+}
+
+.right quote {
+	font-size: 15px;
+	font-family: verdana,arial,helvetica,sans-serif;
+	float: left;
+	width: 365px;
+	margin: 10px 0 0 15px;
+}
+
+
+
